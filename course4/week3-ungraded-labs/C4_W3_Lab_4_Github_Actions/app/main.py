@@ -28,3 +28,4 @@ def predict(wine: Wine):
 # Test actions v4 config yaml scikit-learn==0.24.2
 # Python 3.8
 # min_items -> min_length
+# yaml formatting test

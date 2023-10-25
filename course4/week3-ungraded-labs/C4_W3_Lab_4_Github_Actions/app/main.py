@@ -14,7 +14,7 @@ with open("models/wine.pkl", "rb") as file:
 
 
 class Wine(BaseModel):
-    batches: List[conlist(item_type=float, min_items=13, max_items=13)]
+    batches: List[conlist(item_type=float, min_length=13, max_length=13)]
 
 
 @app.post("/predict")
@@ -27,3 +27,4 @@ def predict(wine: Wine):
     
 # Test actions v4 config yaml scikit-learn==0.24.2
 # Python 3.8
+# min_items -> min_length

@@ -25,6 +25,4 @@ def predict(wine: Wine):
     return {"Prediction": pred}
     
     
-# Test actions v4
-# Test actions v4 again
-# Test actions v4 again
+# Test actions v4 config yaml

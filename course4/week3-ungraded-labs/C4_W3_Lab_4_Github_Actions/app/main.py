@@ -29,3 +29,4 @@ def predict(wine: Wine):
 # Python 3.8
 # min_items -> min_length
 # yaml formatting test
+# v2 test

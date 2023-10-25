@@ -25,4 +25,4 @@ def predict(wine: Wine):
     return {"Prediction": pred}
     
     
-# Test actions v4 config yaml
+# Test actions v4 config yaml scikit-learn==1.2.2
